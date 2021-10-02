@@ -1,0 +1,6 @@
+TRUNCATE TABLE users;
+INSERT INTO users(name, surname, age, email)
+VALUES ('Ricardo', 'Milos', 25, 'Ricardo@milos.gym'),
+       ('JIexa', 'Morpeh', 15, 'jiexa@mail.ru'),
+       ('Den4ik', 'Sidorov', 35, 'den@dondimon.ru'),
+       ('Petr', 'Glanc', 41, 'glanc@gmail.com');
